@@ -194,8 +194,9 @@ input:focus {
   
   display: flex;
   justify-content: flex-end;
+  /*
   width: 100vw;
-  margin-left: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);*/
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
