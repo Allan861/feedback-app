@@ -18,9 +18,11 @@ ul {
 }
 
 .container {
+  
   max-width: 768px;
   margin: auto;
   padding: 0 20px;
+  
 }
 
 header {
@@ -187,9 +189,13 @@ input:focus {
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the
  * document */
+
 .about-link {
+  
   display: flex;
   justify-content: flex-end;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
 }
 
 /* FIX: Remove position: absolute to keep about icon at the bottom of the

@@ -49,7 +49,8 @@ FeedbackList.propTypes = {
     PropTypes.shape({
       id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
       text: PropTypes.string.isRequired,
-      rating: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+      rating: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
+.isRequired,
     })
   ),
 };
